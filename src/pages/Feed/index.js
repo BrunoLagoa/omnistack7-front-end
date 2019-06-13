@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import api from "../services/api";
+import api from "../../services/api";
 import io from "socket.io-client";
 
 import "./Feed.css";
 
-import more from "../assets/more.svg";
-import like from "../assets/like.svg";
-import comment from "../assets/comment.svg";
-import send from "../assets/send.svg";
+import more from "../../assets/more.svg";
+import like from "../../assets/like.svg";
+import comment from "../../assets/comment.svg";
+import send from "../../assets/send.svg";
 
 class Feed extends Component {
   state = {
